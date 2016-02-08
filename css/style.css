@@ -1,3 +1,4 @@
+/* General */
 html{
     background-image: url("../img/background.jpg");
     background-size: auto;
@@ -9,3 +10,19 @@ body{
     width: 80%;
     margin-left: 10%;
 }
+
+header, section{
+	text-align: center
+}
+
+/* Section nav */
+
+/* Section header */
+
+/* Section Qui sommes nous */
+
+/* Section Compétences */
+
+/* Section Jeu */
+
+/* Section Fo */
