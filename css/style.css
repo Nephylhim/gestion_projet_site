@@ -11,6 +11,12 @@ body{
     margin-left: 10%;
 }
 
+section
+{
+	margin: auto;
+	width: 90%;
+}
+
 header, section{
 	text-align: center
 }
@@ -22,7 +28,27 @@ header, section{
 /* Section Qui sommes nous */
 
 /* Section Compétences */
+#comp table{
+	margin: auto;
+	width: 80%;
+}
 
 /* Section Jeu */
+#jeu li{
+	display: table-cell;
+    width: 2%;
+	text-align: justify;
+	padding: 1em;
+}
+
+#jeu li h3{
+	text-align: center;
+}
+
+#jeu > img, #jeu > iframe{
+	display: block;
+	margin: auto;
+}
+
 
 /* Section Fo */
