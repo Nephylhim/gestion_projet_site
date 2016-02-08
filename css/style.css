@@ -9,12 +9,20 @@ body{
     background-color: #ababab;
     width: 80%;
     margin-left: 10%;
+	margin-top: 5em;
 }
 
 section
 {
 	margin: auto;
+	padding-top: 4em;
 	width: 90%;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 header, section{
@@ -22,6 +30,54 @@ header, section{
 }
 
 /* Section nav */
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: gray;
+	background-color: rgba(200,200,200,0.5);
+	width: 100%;
+	height: 4em;
+	line-height: 4em;
+	margin: 0;
+	padding: 0;
+}
+
+nav img{
+	width: 2.5em;
+}
+
+nav > h1, nav > ul{
+	display: inline-block;
+	margin: 0;
+}
+
+nav ul, nav h1{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+nav h1{
+	width: 10%;
+}
+
+nav > ul{
+	width: 54%;
+}
+nav ul + ul{
+	width: 25%;
+	text-align: right;
+}
 
 /* Section header */
 
