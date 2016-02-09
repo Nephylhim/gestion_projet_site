@@ -145,6 +145,23 @@ nav > ul:nth-of-type(1) li a:hover{
 }
 
 /* Section header */
+header{
+	background-image: url("../img/banner_mini_metro.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 15em;
+	line-height: 15em;
+	display: block;
+	margin: auto;
+	width: 97%;
+}
+
+header h1{
+	margin: 0;
+	padding: 0;
+	text-shadow: 0 0 15px white;
+	font-size: 4em;
+}
 
 /* Section Qui sommes nous */
 
