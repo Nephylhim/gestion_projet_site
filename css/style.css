@@ -25,7 +25,7 @@ html{
 }
 
 body{
-    background-color: rgba(100,100,100,.4);
+/*    background-color: rgba(20,20,20,.4);*/
     width: 80%;
     margin-left: 10%;
 	margin-top: 5em;
@@ -39,6 +39,10 @@ section
 	margin: auto;
 	padding-top: 4em;
 	width: 90%;
+
+    background-color: rgba(20,20,20,.4);
+    margin-bottom: 2em;
+    padding: 4em 2em;
 }
 
 h1{
@@ -140,11 +144,6 @@ nav ul + ul{
 }
 
 /* Section Jeu */
-#jeu li{
-	display: table-cell;
-    width: 2%;
-	padding: 1em;
-}
 
 #jeu li h3{
 	text-align: center;
@@ -160,7 +159,15 @@ nav ul + ul{
 	margin-bottom: 2em;
 }
 
-#jeu div{
+/* Section Commentaires */
+
+#commentaires li{
+	display: table-cell;
+    width: 2%;
+	padding: 1em;
+}
+
+#commentaires div{
 	display: inline-block;
 	background-color: rgb(255,40,40);
 	padding: 1.5em 2em;
@@ -168,11 +175,11 @@ nav ul + ul{
 	transition: all ease 0.2s;
 }
 
-#jeu div a{
+#commentaires div a{
 	color: white
 }
 
-#jeu div:hover{
+#commentaires div:hover{
 	background-color: rgb(255,70,70);
 }
 
