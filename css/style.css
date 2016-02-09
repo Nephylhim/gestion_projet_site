@@ -26,7 +26,12 @@ ul{
 }
 
 header, section{
-	text-align: center
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px;
 }
 
 /* Section nav */
@@ -89,11 +94,15 @@ nav ul + ul{
 	width: 80%;
 }
 
+#comp p{
+	text-align: center;
+	text-indent: 0;
+}
+
 /* Section Jeu */
 #jeu li{
 	display: table-cell;
     width: 2%;
-	text-align: justify;
 	padding: 1em;
 }
 
