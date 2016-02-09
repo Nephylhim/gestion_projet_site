@@ -40,7 +40,7 @@ section
 	padding-top: 4em;
 	width: 90%;
 
-    background-color: rgba(20,20,20,.4);
+    background-color: rgba(10,10,10,.4);
     margin-bottom: 2em;
     padding: 4em 2em;
 }
@@ -68,6 +68,7 @@ p{
 
 a{
 	text-decoration: none;
+    color: inherit;
 }
 
 h1, h2{
@@ -165,6 +166,11 @@ nav ul + ul{
 	display: table-cell;
     width: 2%;
 	padding: 1em;
+}
+
+#commentaires h3{
+    color: white;
+    text-transform: uppercase;
 }
 
 #commentaires div{
