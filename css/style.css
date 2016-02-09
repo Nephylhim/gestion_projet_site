@@ -137,6 +137,11 @@ nav > ul:nth-of-type(1) li a{
 	color: white;
 	font-size: 1.3em;
 	border-radius: 1em;
+	transition: all ease 0.2s;
+}
+
+nav > ul:nth-of-type(1) li a:hover{
+	background-color: rgba(120,120,120,0.7);
 }
 
 /* Section header */
