@@ -53,7 +53,12 @@ ul{
 }
 
 header, section{
-	text-align: center
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px;
 }
 
 /* Section nav */
@@ -116,11 +121,19 @@ nav ul + ul{
 	width: 80%;
 }
 
+#comp p{
+	text-align: center;
+	text-indent: 0;
+}
+
+#comp img{
+	width: 7em;
+}
+
 /* Section Jeu */
 #jeu li{
 	display: table-cell;
     width: 2%;
-	text-align: justify;
 	padding: 1em;
 }
 
@@ -133,5 +146,29 @@ nav ul + ul{
 	margin: auto;
 }
 
+#jeu img{
+	width: 35em;
+	margin-bottom: 2em;
+}
 
+#jeu div{
+	display: inline-block;
+	background-color: rgb(255,40,40);
+	padding: 1.5em 2em;
+	border-radius: 5px;
+	transition: all ease 0.2s;
+}
+
+#jeu div:hover{
+	background-color: rgb(255,70,70);
+}
+
+<<<<<<< HEAD
 /* Section Fo */
+=======
+/* Section Footer */
+footer p{
+	text-align: center;
+	text-indent: 0;
+}
+>>>>>>> origin/master
