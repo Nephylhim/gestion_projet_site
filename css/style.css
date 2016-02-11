@@ -162,6 +162,9 @@ header h1{
 }
 
 /* Section Qui sommes nous */
+#qui img{
+	width: 80%;
+}
 
 /* Section Compétences */
 #comp table{
